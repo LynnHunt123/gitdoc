@@ -7,7 +7,7 @@ class Cat:
     """
     __fed = False
 
-    def purrs(self, s: str = "pur") -> str:
+    def purr(self, s: str = "pur") -> str:
         """
         Emulate feline purr.
 
@@ -44,10 +44,14 @@ class Meownir(Cat):
 
     def meow(self) -> str:
         """
-        Emulate Meownir meow.
+        Emulate Meownir meow. She meows differently.
 
         :return: the onomatopoeia of Meownir's meow.
         :rtype: str
         """
         regular_cat_sound = super().meow()
         return "Wrr" + regular_cat_sound
+
+if __name__ == "__main__":
+    my_cat = Meownir()
+    print(my_cat.meow())
