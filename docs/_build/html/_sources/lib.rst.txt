@@ -1,0 +1,21 @@
+lib package
+===========
+
+Submodules
+----------
+
+lib.script module
+-----------------
+
+.. automodule:: lib.script
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: lib
+   :members:
+   :undoc-members:
+   :show-inheritance:
