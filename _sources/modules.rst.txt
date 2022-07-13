@@ -1,0 +1,6 @@
+gitdoc-doc
+==========
+
+.. toctree::
+   :maxdepth: 4
+
