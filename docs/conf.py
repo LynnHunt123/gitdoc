@@ -12,8 +12,9 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))
-sys.path.insert(0, os.path.abspath('../lib'))
+list_of_dirs = [f for f in os.getcwd() if os.path.isdir(f)]
+for dir in list_of_dirs:
+    sys.path.insert(0, dir)
 
 
 # -- Project information -----------------------------------------------------
